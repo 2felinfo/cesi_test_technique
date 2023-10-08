@@ -2,7 +2,6 @@ from covoiturage_class import Covoiturage
 import argparse
 import webbrowser
 import sys
-import ast
 from calcul_Co2 import Calcul
 parser = argparse.ArgumentParser()
 parser.add_argument('--url', type=str, default="https://static.data.gouv.fr/resources/trajets-realises-en-covoiturage-registre-de-preuve-de-covoiturage/20230921-111347/2023-08.csv", help="URL du jeu de doonées")
