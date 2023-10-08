@@ -5,7 +5,6 @@ import seaborn as sns
 import matplotlib.pyplot as plt 
 import warnings
 import folium
-import folium.plugins as plugins
 from folium.plugins import HeatMap
 warnings.filterwarnings('ignore')
 class Covoiturage(object):
